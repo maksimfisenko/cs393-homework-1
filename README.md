@@ -11,4 +11,6 @@
    1. listProducts() method must return a String array which contains welcomeMessage, headerMessage, product list and daily discount message. DailyDiscount rate must be get from DailyDiscountSelector bean. 
 4. Don’t configure Product class as SpringBean(Product is a domain object). 
 4. Use DependencyInjection for Object to Object relationships. (Don’t use new keyword for creation instances, except Product class) 
-4. When the application is started, the URL http://localhost:9099/products must return a response like this: ...
+4. When the application is started, the URL http://localhost:9099/products must return a response like this:
+   ![image](https://github.com/maksimfisenko/cs393-homework-1/assets/90686419/dae1f436-73d9-46d6-8032-26ce2c582a09)
+
