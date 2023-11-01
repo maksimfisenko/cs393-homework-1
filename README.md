@@ -2,10 +2,7 @@
 
 1. Create a SpringBoot project with Web and Spring BootDevTools dependencies 
 1. Change application server’s port as 9099 
-1. Copy provided classes from github: 
-
-[https://github.com/esmameral/ozu-CS393-2023-2024-Fall/tree/main/Homework1 ](https://github.com/esmameral/ozu-CS393-2023-2024-Fall/tree/main/Homework1)
-
+1. Copy provided classes from github: [https://github.com/esmameral/ozu-CS393-2023-2024-Fall/tree/main/Homework1 ](https://github.com/esmameral/ozu-CS393-2023-2024-Fall/tree/main/Homework1)
 4. Define ProductBean class as Spring Bean 
 4. Create an implementation of DailyDiscountSelector interface. Your implementation must return 15, 20, 25 or 30 randomly as dicountRate. 
 4. Create an ApplicationRunner in the “com.ozyegin.cs393.hw1.runner” package. In the ApplicationRunner class, initialize ProductBean’s productList array with at least 4 products. You can create product instances with arbitrary data. 
